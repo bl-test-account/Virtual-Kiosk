@@ -5,7 +5,7 @@ $(function(){
   $('#name').text(data.name);
   
   $('button').click(function(){
-    window.open('facetime://' + data.number)
+    window.open('facetime://1' + data.number)
   });
     
   BL.previewReady();
